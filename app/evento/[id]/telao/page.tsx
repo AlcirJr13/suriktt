@@ -155,26 +155,16 @@ export default function LiveWallPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-pink-900 to-blue-900 relative overflow-hidden">
       {/* Cabeçalho Fixo */}
-      <header className="absolute top-0 left-0 right-0 z-20 text-center p-6 bg-gradient-to-b from-black/70 via-black/40 to-transparent backdrop-blur-sm">
-        <h1 className="text-6xl font-bold text-white mb-2 drop-shadow-2xl"
+      <header className="absolute top-0 left-0 right-0 z-20 text-center p-8 bg-gradient-to-b from-black/50 to-transparent">
+        <h1 className="text-6xl font-bold text-white mb-2"
           style={{
-            textShadow: '0 0 20px rgba(0,0,0,0.8), 0 0 40px rgba(0,0,0,0.6), 2px 2px 4px rgba(0,0,0,0.9)',
-            WebkitTextStroke: '1px rgba(0,0,0,0.5)'
+            textShadow: '2px 2px 4px rgba(0,0,0,0.8), -1px -1px 0 #7c3aed, 1px -1px 0 #7c3aed, -1px 1px 0 #7c3aed, 1px 1px 0 #7c3aed',
           }}>
           {evento.name}
         </h1>
-        <p className="text-3xl text-white font-semibold drop-shadow-xl"
+        <p className="text-3xl text-white font-semibold"
           style={{
-            //textShadow: '0 0 10px rgba(0,0,0,0.9), 0 0 20px rgba(0,0,0,0.7), 1px 1px 2px rgba(0,0,0,0.9)',
-            textShadow: '2px 2px 4px rgba(0,0,0,0.8)',
-            //WebkitTextStroke: '0.5px rgba(0,0,0,0.6)',
-            //backgroundColor: 'rgba(0,0,0,0.3)',
-            backgroundColor: 'rgba(0,0,0,0.2)',
-            display: 'inline-block',
-            //padding: '8px 24px',
-            padding: '4px 16px',
-            borderRadius: '9999px',
-            //backdropFilter: 'blur(4px)'
+            textShadow: '2px 2px 4px rgba(0,0,0,0.8), -1px -1px 0 #7c3aed, 1px -1px 0 #7c3aed, -1px 1px 0 #7c3aed, 1px 1px 0 #7c3aed',
           }}>
           Compartilhe este momento! 📸
         </p>
